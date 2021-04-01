@@ -1,0 +1,100 @@
+body {
+	margin:0px;
+	font-family:arial;
+}
+img {
+	padding-top:90px;
+	width:256px;
+}
+h1 {
+	padding-top:90px;
+}
+a {
+	text-decoration:none;
+	color:black;
+}
+.l_background {
+	background-color:white;
+}
+.l_main {
+	background-color:white;
+	margin:auto;
+}
+.l_top {
+	background-color:rgba(200, 200, 200, 0.5);
+	color:white;
+	text-align:left;
+	position:fixed;
+	width:100%;
+	float:left;
+	padding-left:100px;
+}
+.l_top_menu{
+	color:white;
+	float:right;
+	padding-right:175px;
+	margin-top:30px;
+	font-size:30px;
+}
+.l_meio {
+	width:1250px;
+	margin:auto;
+	font-size:24px;
+}
+#l_bottom {
+	background-color:gray;
+	color:white;
+	text-align:center;
+}
+#l_home {
+	padding-top:200px;
+	padding-bottom:250px;
+	text-align:center;
+	background-image:url("Imagens/background2.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:gray;
+	color:white;
+	text-shadow:2px 2px black;
+	font-size:24px;
+}
+#l_servicos {
+	text-align:left;
+	margin-left:100px;
+}
+#l_servicos_img {
+	float:right;
+	margin-right:100px;
+}
+#l_sobre {
+	text-align:right;
+	margin-right:100px;
+}
+#l_sobre_img {
+	float:left;
+	margin-left:100px;
+	animation-name:sobre_img_anim;
+	animation-duration:1s;
+}
+#l_contato {
+	text-align:center;
+}
+#l_contato, input, textarea{
+	margin:auto;
+	margin-bottom:10px;
+	width:500px;
+}
+#l_contato, textarea{
+	height:300px;
+	resize:none;
+}
+.l_contato_bg {
+	background-color:#48f;
+	height:690px;
+}
+.l_bottom_img {
+	width:30px;
+	margin:10px;
+	padding-top:0px;
+}
